@@ -112,3 +112,18 @@ body {
   font-size: 20px;
   font-weight: 500;
 }
+
+
+
+
+/******/
+.cart-top {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.cart-top>h1 {
+  font-size: 40px;
+  margin-left: 10px;
+  color:rgb(78, 41, 24);
+}

@@ -1,5 +1,6 @@
 import "./App.css";
 import { FaCartShopping } from "react-icons/fa6";
+import { Link } from "wouter";
 import ShoppingCartItem from "./ShoppingCartItem";
 import donut from "./pics/donut.png";
 import cheesecake from "./pics/cheesecake.png";
@@ -42,7 +43,9 @@ function App() {
     <>
       <div className="container">
         <h1>Desserts</h1>
-        <FaCartShopping size={30} color="rgb(78, 41, 24)" />
+        <Link href="/cart">
+          <FaCartShopping size={30} color="rgb(78, 41, 24)" />
+        </Link>
       </div>
       <div className="sweets">
         {sweets.map((sweet) => {
