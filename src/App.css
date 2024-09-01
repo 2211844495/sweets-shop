@@ -101,6 +101,7 @@ body {
   color:rgb(99, 52, 31);
   font-weight: 700;
   transition: 0.3s;
+  text-align: center;
 }
 .quantity-selector button:hover {
   cursor: pointer;
