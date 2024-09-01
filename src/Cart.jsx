@@ -12,6 +12,8 @@ export default function Cart() {
         </Link>
         <h1>Your Cart</h1>
       </div>
+      <p id="message">We're currently working on this page.</p>
+
     </>
   );
 }
